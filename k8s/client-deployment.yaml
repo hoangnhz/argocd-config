@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: client
-          image: hoangnhdocker/multi-client:latest
+          image: hoangnhdocker/multi-client:v1.23
           ports:
             - containerPort: 3000
       
